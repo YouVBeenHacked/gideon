@@ -31,7 +31,7 @@ banner = f""" {lbe}
   \_____|_|\__,_|\___|\___/|_| |_|
   {lbe}[>>] created and owned by {lre}malorento
   {lbe}[>>] for channels {lre}"You`ve been HACKED" {lbe}and{lre} "Uebinary"{res}
-  {lbe}[>>] created by the idea of{lre} consolol
+  {lbe}[>>] created by the idea of{lre} consulol
 """
 
 sher_menu = f"""{lge}
