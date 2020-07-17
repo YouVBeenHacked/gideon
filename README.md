@@ -1,5 +1,5 @@
 # Gideon 
-🧥🔍Simple tool for searching and collection information written in Python 3
+🧥🔍Simple tool for searching and collect information written in Python 3
 
 💰My btc for donations: 1Ak3xRuLXh5cex3kb53idPNv2jdnpuVRJ2
 
