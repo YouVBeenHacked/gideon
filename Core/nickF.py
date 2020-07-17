@@ -48,7 +48,7 @@ def osint(dict, nick):
 	   else:
 		   print(Fore.RED + key + " not found")
 	  except:
-	   print(Fore.YELLOW + "request error for " + key)
+	   print(Fore.YELLOW + "request error for " + key) 
 
 
 
