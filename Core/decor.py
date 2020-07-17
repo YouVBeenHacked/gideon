@@ -10,7 +10,7 @@ lre = Fore.LIGHTRED_EX
 
 menu = f"""
 {lge}
-[1] - Found Nick Information
+[1] - Find Nickname Information
 [2] - Find Torrent Information
 [3] - Find Phone or Car Number Information
 {red}[4] - Exit {res}
@@ -30,7 +30,7 @@ banner = f""" {lbe}
  | |__| | | (_| |  __/ (_) | | | |
   \_____|_|\__,_|\___|\___/|_| |_|
   {lbe}[>>] created and owned by {lre}malorento
-  {lbe}[>>] for channels {lre}"You`ve been HACKED" {lbe}and{lre} "Uebinary"{res}
+  {lbe}[>>] for channels {lre}"You`ve been HACKED" {lbe}and{lre} "staide"{res}
   {lbe}[>>] created by the idea of{lre} consulol
 """
 
