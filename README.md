@@ -10,10 +10,10 @@
 4. Search all downloaded Torrents by IP
 
 # Installation:
-git clone https://github.com/malorento/gideon/
+``git clone https://github.com/malorento/gideon/
 cd gideon
 pip3 install requirements.txt
-python gideon.py
+python gideon.py``
 
 # About:
 1. Created by malorento
