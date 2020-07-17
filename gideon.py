@@ -22,7 +22,7 @@ elif system == 2:
     os.system('clear')
 
 else:
-    print(decor.lre + "UNKNOWN VALUE")
+    print(decor.lye + "UNKNOWN VALUE")
 
 
 print(decor.banner)
@@ -32,33 +32,33 @@ while True:
     if ans == 1 and system == 1:
         os.system('cls')
         nick = input(f"{decor.lye}Enter Nickname >> ")
-        print(f"{decor.lbe} Messeagers and Soical Networks:")
+        print(f"{decor.lye} Messeagers and Soical Networks:")
         nickF.osint(nickF.snm, nick)
-        print(f"{decor.lbe} Videohostings:")
+        print(f"{decor.lye} Videohostings:")
         nickF.osint(nickF.vh, nick)
-        print(f"{decor.lbe} Games:")
+        print(f"{decor.lye} Games:")
         nickF.osint(nickF.games, nick)
-        print(f"{decor.lbe} Forums:")
+        print(f"{decor.lye} Forums:")
         nickF.osint(nickF.forums, nick)
-        print(f"{decor.lbe} Wallets:")
+        print(f"{decor.lye} Wallets:")
         nickF.osint(nickF.money, nick)
-        print(f"{decor.lbe} Other:")
+        print(f"{decor.lye} Other:")
         nickF.osint(nickF.other, nick)
         continue
     elif ans == 1 and system == 2:
         os.system('clear')
         nick = input(f"{decor.lye}Enter Nickname >> ")
-        print(f"{decor.lbe} Messeagers and Soical Networks:")
+        print(f"{decor.lye} Messeagers and Soical Networks:")
         nickF.osint(nickF.snm, nick)
-        print(f"{decor.lbe} Videohostings:")
+        print(f"{decor.lye} Videohostings:")
         nickF.osint(nickF.vh, nick)
-        print(f"{decor.lbe} Games:")
+        print(f"{decor.lye} Games:")
         nickF.osint(nickF.games, nick)
-        print(f"{decor.lbe} Forums:")
+        print(f"{decor.lye} Forums:")
         nickF.osint(nickF.forums, nick)
-        print(f"{decor.lbe} Wallets:")
+        print(f"{decor.lye} Wallets:")
         nickF.osint(nickF.money, nick)
-        print(f"{decor.lbe} Other:")
+        print(f"{decor.lye} Other:")
         nickF.osint(nickF.other, nick)
         continue
     elif ans == 4:
@@ -141,33 +141,33 @@ while True:
                     if km:
                         print("https://www.230km.ru/"+numb_car+".nomer")
                     else:
-                        print(f"{decor.red}[no result]")
+                        print(f"{decor.lre}[no result]")
                 else:
-                    print(f"{decor.red}[no result]")
+                    print(f"{decor.lre}[no result]")
                 if len(nc)<8:
-                    print(f"{decor.red}[no result]")
+                    print(f"{decor.lre}[no result]")
                 else:
                     print("http://avto-nomer.ru/ru/gallery.php?fastsearch="+nc)
             except:
-                print(f"{decor.red}[no result]")
+                print(f"{decor.lre}[no result]")
         elif vari == "1":
-            phone = input(f"{decor.lye}Enter Phone Number >> ")
+            phone = input(f"{decor.lre}Enter Phone Number >> ")
             getInfo = "https://htmlweb.ru/geo/api.php?json&telcod=" + phone
             try:
                 infoPhones = urllib.request.urlopen( getInfo )
             except:
-                print(f"{decor.red}[no result]")
+                print(f"{decor.lre}[no result]")
             infoPhone = json.load( infoPhones )
 
             try:
-                print(decor.lbe)
+                print(decor.lye)
                 print(u"Country >>", infoPhone["country"]["name"])
                 print(u"Region >>", infoPhone["region"]["name"])
                 print(u"Operator >>", infoPhone["0"]["oper"])
                 print(u"City >>", infoPhone["0"]["name"])
                 print(decor.res)
             except:
-                print(f"{decor.red}On TOR to continue working")
+                print(f"{decor.lre}On TOR to continue working")
 
     elif ans == 3 and system == 2:
         os.system('clear')
@@ -189,15 +189,15 @@ while True:
                     if km:
                         print("https://www.230km.ru/"+numb_car+".nomer")
                     else:
-                        print(f"{decor.red}[no result]")
+                        print(f"{decor.lre}[no result]")
                 else:
-                    print(f"{decor.red}[no result]")
+                    print(f"{decor.lre}[no result]")
                 if len(nc)<8:
-                    print(f"{decor.red}[no result]")
+                    print(f"{decor.lre}[no result]")
                 else:
                     print("http://avto-nomer.ru/ru/gallery.php?fastsearch="+nc)
             except:
-                print(f"{decor.red}[no result]")
+                print(f"{decor.lre}[no result]")
         elif vari == "1":
             phone = input(f"{decor.lye}Enter Phone Number >> ")
             getInfo = "https://htmlweb.ru/geo/api.php?json&telcod=" + phone
@@ -208,11 +208,14 @@ while True:
             infoPhone = json.load( infoPhones )
 
             try:
-                print(decor.lbe)
+                print(decor.lye)
                 print(u"Country >>", infoPhone["country"]["name"])
                 print(u"Region >>", infoPhone["region"]["name"])
                 print(u"Operator >>", infoPhone["0"]["oper"])
                 print(u"City >>", infoPhone["0"]["name"])
                 print(decor.res)
+            except:
+                print(f"{decor.lre}On TOR to continue working")
+
             except:
                 print(f"{decor.red}On TOR to continue working")
