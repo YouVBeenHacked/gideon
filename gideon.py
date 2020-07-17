@@ -216,6 +216,3 @@ while True:
                 print(decor.res)
             except:
                 print(f"{decor.lre}On TOR to continue working")
-
-            except:
-                print(f"{decor.red}On TOR to continue working")
