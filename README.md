@@ -10,7 +10,7 @@
 4. Search all downloaded Torrents by IP
 
 # Installation:
-``git clone https://github.com/malorento/gideon/``
+``git clone https://github.com/YouVBeenHacked/gideon/``
 
 ``cd gideon``
 
