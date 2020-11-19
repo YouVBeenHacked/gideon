@@ -27,8 +27,8 @@ banner = f""" {lye}
  | |__| | | (_| |  __/ (_) | | | |
   \_____|_|\__,_|\___|\___/|_| |_|
   {lye}[>>] created by {lre}malorento
-  {lye}[>>] for channels {lre}"You`ve been HACKED" {lye}and{lre} "staide"
-  {lye}[>>] the idea belongs to {lre}consulol{res}
+  {lye}[>>] for channels {lre}"@bh_menu" {lye}and{lre} "staide"
+  {lye}[>>] the idea belongs to {lre}NezukA{res}
 """
 
 sher_menu = f"""{lye}
