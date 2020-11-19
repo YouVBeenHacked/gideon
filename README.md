@@ -1,7 +1,7 @@
 # Gideon 
-🧥🔍Simple tool for searching and collect information written in Python 3
+🧥🔍 Simple tool for searching and collect information written in Python 3
 
-💰My btc for donations: 1Ak3xRuLXh5cex3kb53idPNv2jdnpuVRJ2
+💰 My btc for donations: 1Ak3xRuLXh5cex3kb53idPNv2jdnpuVRJ2
 
 # Functions:
 1. Search Information about Phone Number
@@ -22,4 +22,4 @@
 1. Created by malorento
 2. Owned by malorento
 3. Copy without copyrightings will burn your soul
-4. The idea of ``gideon`` is belongs to consulol
+4. The idea of ``gideon`` is belongs to NezukA
